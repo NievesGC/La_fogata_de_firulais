@@ -1,0 +1,100 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Hacer responsive SOLO el slider de reseñas */
+.craftify-best-selling .alignnormal {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+.craftify-best-selling .alignnormal .metaslider,
+.craftify-best-selling .alignnormal .metaslider-flex {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.craftify-best-selling .alignnormal .metaslider .slides li {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.craftify-best-selling .alignnormal .metaslider img {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+}
+
+/* Flechas más pequeñas y posicionadas abajo */
+.craftify-best-selling .metaslider .flex-direction-nav a {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 18px !important;
+    bottom: 30px !important;
+    top: auto !important;
+}
+
+/* Ajustes para escritorio */
+@media (min-width: 1025px) {
+    .craftify-best-selling .alignnormal .metaslider {
+        min-height: 500px !important;
+    }
+}
+
+/* Ajustes para tablet */
+@media (max-width: 1024px) {
+    .craftify-best-selling .alignnormal .metaslider {
+        min-height: 450px !important;
+    }
+    
+    .craftify-best-selling .alignnormal .metaslider img {
+        max-width: 100% !important;
+    }
+    
+    .craftify-best-selling .metaslider .flex-direction-nav a {
+        bottom: 25px !important;
+    }
+}
+
+/* Ajustes para móvil */
+@media (max-width: 768px) {
+    .craftify-best-selling .alignnormal .metaslider {
+        min-height: 400px !important;
+    }
+    
+    .craftify-best-selling .alignnormal .metaslider img {
+        max-width: 100% !important;
+    	min-height: 400px;
+    	object-fit: cover !important;
+    	margin: 0 auto !important;
+    }
+    
+    .craftify-best-selling {
+        padding-left: var(--wp--preset--spacing--40) !important;
+        padding-right: var(--wp--preset--spacing--40) !important;
+    }
+    
+    .craftify-best-selling .metaslider .flex-direction-nav a {
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 16px !important;
+        bottom: 20px !important;
+    }
+}
+
+/* Móvil pequeño */
+@media (max-width: 480px) {
+    .craftify-best-selling .alignnormal .metaslider {
+        min-height: 350px !important;
+    }
+    
+    .craftify-best-selling .alignnormal .metaslider img {
+        max-width: 100% !important;
+    }
+    
+    .craftify-best-selling .metaslider .flex-direction-nav a {
+        bottom: 15px !important;
+    }
+}</style>
+<!-- end Simple Custom CSS and JS -->

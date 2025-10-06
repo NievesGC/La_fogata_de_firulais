@@ -1,0 +1,21 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (max-width: 768px) {
+	
+	/* Centrar contenidos*/
+    #sobre_mi .wp-block-column {
+        text-align: center !important;
+    }
+    
+    #sobre_mi .wp-block-columns {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    #sobre_mi .wp-block-image {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}</style>
+<!-- end Simple Custom CSS and JS -->
